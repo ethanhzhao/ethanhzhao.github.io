@@ -17,7 +17,7 @@ body {
 
 p, .paragraph {
   font-weight: 400;
-  color: #4c4c4c;
+  color: #fff;
   font-size: 15px;
   line-height: 1.8;
   font-family: "Roboto", sans-serif;
@@ -507,6 +507,35 @@ textarea.form-control {
   left: 225px;
 }
 
+#a1 {
+  bottom: 170px;
+  right: 0px;
+  opacity: 0.3;
+  transform: rotate(-7deg);
+  z-index: 0;
+}
+
+#a2 {
+  bottom: 170px;
+  right: 433px;
+  opacity: 0.25;
+  transform: rotate(-7deg);
+}
+
+#a3 {
+  bottom: 170px;
+  right: 867px;
+  opacity: 0.25;
+  transform: rotate(-7deg);
+}
+
+#a4 {
+  bottom: 170px;
+  right: 1300px;
+  opacity: 0.25;
+  transform: rotate(-7deg);
+}
+
 .layer-bg {
   position: absolute;
   top: 29px;
@@ -659,7 +688,7 @@ textarea.form-control {
 .testimonial-bg-shapes .bg-shape-1 {
   position: absolute;
   left: 100px;
-  top: -50px;
+  top: 0px;
 }
 .testimonial-bg-shapes .bg-shape-2 {
   position: absolute;
@@ -852,5 +881,10 @@ blockquote {
 
 html {
   scroll-behavior: smooth;
+}
+
+.abt-img {
+    top: 200px;
+    right: 50px;
 }
 /*# sourceMappingURL=style.css.map */
